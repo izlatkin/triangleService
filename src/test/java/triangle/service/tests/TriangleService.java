@@ -1,17 +1,17 @@
 package triangle.service.tests;
 
-import com.jayway.restassured.builder.RequestSpecBuilder;
-import com.jayway.restassured.filter.log.LogDetail;
-import com.jayway.restassured.specification.RequestSpecification;
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.filter.log.LogDetail;
+import io.restassured.specification.RequestSpecification;
 import triangle.service.Triangle;
 import triangle.service.TriangleRequest;
 
 import java.util.List;
 
-import static com.jayway.restassured.RestAssured.given;
+import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-public class TriangleService {
+public class TriangleService{
 
     private static RequestSpecBuilder createCommonRequestSpecBuilder() {
         return new RequestSpecBuilder().

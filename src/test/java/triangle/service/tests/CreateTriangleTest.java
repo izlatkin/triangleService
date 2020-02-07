@@ -1,13 +1,10 @@
 package triangle.service.tests;
 
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import triangle.service.Triangle;
 import triangle.service.TriangleRequest;
 
-import static com.jayway.restassured.RestAssured.given;
+import static io.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
@@ -15,25 +12,23 @@ public class CreateTriangleTest extends TriangleService {
 
     private Triangle triangle;
 
+    @BeforeTest
+    public void suiteSetUp() {
+        TriangleService tc = new TriangleService();
+        tc.deleteAllTriangles();
+    }
+
     @DataProvider(name = "createTrianglesSuccessData")
     public Object[][] createTrianglesSuccessData() {
         return new Object[][] {
                 { new TriangleRequest("3;4;5"), 3.0, 4.0, 5.0},
                 { new TriangleRequest("0.5;0.75;0.5"), 0.5, 0.75, 0.5},
-                { new TriangleRequest("3,4,5", ","), 3.0, 4.0, 5.0},
-                { new TriangleRequest("3:4:5", ":"), 3.0, 4.0, 5.0},
                 { new TriangleRequest("1;1;2"), 1.0, 1.0, 2.0}, // check doc
                 { new TriangleRequest("1;1;0"), 1.0, 1.0, 0.0}, // check doc
                 { new TriangleRequest("0;0;0"), 0.0, 0.0, 0.0}, // check doc
                 { new TriangleRequest("1000000000000000000;1000000000000000000;1000000000000000000"),
                         1000000000000000000.0, 1000000000000000000.0, 1000000000000000000.0}
         };
-    }
-
-    @BeforeSuite
-    public void suiteSetUp() {
-        TriangleService tc = new TriangleService();
-        tc.deleteAllTriangles();
     }
 
     @Test(dataProvider = "createTrianglesSuccessData")
@@ -84,23 +79,9 @@ public class CreateTriangleTest extends TriangleService {
                 body("id", is(nullValue()));
     }
 
-    @Test
-    public void unauthorizedRequestTest() {
-        given().
-                spec(createUnauthorizedRequestSpec()).
-                body(new TriangleRequest("3;4;5")).
-        when().
-                post("/triangle").
-        then().
-                log().all().
-                statusCode(401).
-                body("error", equalTo("Unauthorized"));
-    }
-
     @AfterMethod
     public void tearDown() {
-        if (triangle != null) {
-            deleteTriangle(triangle.getId());
-        }
+        TriangleService tc = new TriangleService();
+        tc.deleteAllTriangles();
     }
 }

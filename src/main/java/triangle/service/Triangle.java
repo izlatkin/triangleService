@@ -18,4 +18,5 @@ public class Triangle {
     public double getThirdSide() {
         return thirdSide;
     }
+
 }
