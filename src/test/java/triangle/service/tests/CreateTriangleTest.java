@@ -14,8 +14,7 @@ public class CreateTriangleTest extends TriangleService {
 
     @BeforeTest
     public void suiteSetUp() {
-        TriangleService tc = new TriangleService();
-        tc.deleteAllTriangles();
+        deleteAllTriangles();
     }
 
     @DataProvider(name = "createTrianglesSuccessData")
@@ -36,14 +35,33 @@ public class CreateTriangleTest extends TriangleService {
                                           double firstSide,
                                           double secondSide,
                                           double thirdSide) {
-        triangle = given(createDefaultRequestSpec()).
-                body(requestPayload).
-        when().
-                post("/triangle").
-        then().
-                log().all().
-                statusCode(200).
-                extract().as(Triangle.class);
+        triangle = createTriangle(requestPayload);
+
+        assertThat(triangle.getId(), notNullValue());
+        assertThat(triangle.getFirstSide(), equalTo(firstSide));
+        assertThat(triangle.getSecondSide(), equalTo(secondSide));
+        assertThat(triangle.getThirdSide(), equalTo(thirdSide));
+
+    }
+
+    @DataProvider(name = "createTrianglesNumberFormats")
+    public Object[][] createTrianglesNumberFormats() {
+        return new Object[][] {
+                { new TriangleRequest("1;2;3"), 1e0, 2e0, 3e0},
+                { new TriangleRequest("1e5;1e5;1e-5"), 1e5, 1e5, 1e-5},
+                { new TriangleRequest("1E5;1E5;1e-10"), 1E5, 1E5, 1e-10},
+                { new TriangleRequest("2345E10;1234E10;1234.6778E10"), 2345E10,1234E10,1234.6778E10},
+                { new TriangleRequest("1e-256;1e-256;1e-256"), 1e-256, 1e-256, 1e-256},
+                { new TriangleRequest("9e256;9e256;9e256"), 9e256, 9e256, 9e256}
+        };
+    }
+
+    @Test(dataProvider = "createTrianglesNumberFormats")
+    public void createTriangleSuccessWithhDiffNumberFormats(TriangleRequest requestPayload,
+                                          double firstSide,
+                                          double secondSide,
+                                          double thirdSide) {
+        triangle = createTriangle(requestPayload);
 
         assertThat(triangle.getId(), notNullValue());
         assertThat(triangle.getFirstSide(), equalTo(firstSide));
@@ -55,15 +73,14 @@ public class CreateTriangleTest extends TriangleService {
     @DataProvider(name = "createTrianglesUnprocessibleData")
     public Object[][] createTrianglesUnprocessibleData() {
         return new Object[][] {
-                { new TriangleRequest("3;4;8")}, // a + b < c
+                { new TriangleRequest("3;4;8")},
                 { new TriangleRequest("3;4;-5")},
                 { new TriangleRequest("-3;4;5")},
                 { new TriangleRequest("3;-4;5")},
-                { new TriangleRequest("1;1;0,5")}, // 0,5 contains ',' instead of '.'
+                { new TriangleRequest("1;1;0,5")},
                 { new TriangleRequest("3;4;5;6")},
                 { new TriangleRequest("3;4;")},
-                { new TriangleRequest("3;4;a")},
-                { new TriangleRequest("3;4;5", ":")}
+                { new TriangleRequest("3;4;a")}
         };
     }
 
@@ -71,17 +88,17 @@ public class CreateTriangleTest extends TriangleService {
     public void unprocessbleCreateTriangleRequestTest(TriangleRequest requestPayload) {
         given(createDefaultRequestSpec()).
                 body(requestPayload).
-        when().
+                when().
                 post("/triangle").
-        then().
+                then().
                 log().all().
                 statusCode(422).
                 body("id", is(nullValue()));
     }
 
+
     @AfterMethod
     public void tearDown() {
-        TriangleService tc = new TriangleService();
-        tc.deleteAllTriangles();
+        deleteAllTriangles();
     }
 }

@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="52" failures="5" name="TestSuite" time="131.793" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="10.0.2+13"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ilyazlatkin/IdeaProjects/TriangleService"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/ilyazlatkin/IdeaProjects/TriangleService"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="10.0.2+13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/67/nr2v1jb94jd1lrr_vt0xfjt40000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ilyazlatkin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.1/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.1"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.1/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/ilyazlatkin"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="user.name" value="ilyazlatkin"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="10.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2018-07-17"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="triangle.service.tests.GetAllTriangleTest" name="getAllTest" time="5.72"/>
+  <testcase classname="triangle.service.tests.CapacityTest" name="maxCapacityAndAbove" time="29.335"/>
+  <testcase classname="triangle.service.tests.SeparatorTest" name="createTriangleSuccessTest" time="1.188"/>
+  <testcase classname="triangle.service.tests.SeparatorTest" name="createTriangleSuccessTest" time="3.099">
+    <failure message="1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;422&gt;.
+" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;422&gt;.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:238)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at triangle.service.tests.SeparatorTest.createTriangleSuccessTest(SeparatorTest.java:52)
+</failure>
+    <system-out>Request method:	GET
+Request URI:	https://qa-quiz.natera.com/triangle/all
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		X-User=38e1e2f8-5428-4833-a38b-054fb6522a95
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+Request method:	DELETE
+Request URI:	https://qa-quiz.natera.com/triangle/2f85fe3a-f19b-4b29-a178-cf0ff85dfdae
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	triangleId=2f85fe3a-f19b-4b29-a178-cf0ff85dfdae
+Headers:		X-User=38e1e2f8-5428-4833-a38b-054fb6522a95
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+Request method:	POST
+Request URI:	https://qa-quiz.natera.com/triangle
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		X-User=38e1e2f8-5428-4833-a38b-054fb6522a95
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;separator&quot;: &quot;.&quot;,
+    &quot;input&quot;: &quot;3.4.5&quot;
+}
+HTTP/1.1 422 
+Date: Sun, 09 Feb 2020 16:43:19 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{
+    &quot;timestamp&quot;: 1581266599258,
+    &quot;status&quot;: 422,
+    &quot;error&quot;: &quot;Unprocessable Entity&quot;,
+    &quot;exception&quot;: &quot;com.natera.test.triangle.exception.UnprocessableDataException&quot;,
+    &quot;message&quot;: &quot;Cannot process input&quot;,
+    &quot;path&quot;: &quot;/triangle&quot;
+}
+</system-out>
+  </testcase>
+  <testcase classname="triangle.service.tests.SeparatorTest" name="createTriangleSuccessTest" time="1.134"/>
+  <testcase classname="triangle.service.tests.SeparatorTest" name="createTriangleSuccessTest" time="1.315"/>
+  <testcase classname="triangle.service.tests.SeparatorTest" name="createTriangleSuccessTest" time="2.076"/>
+  <testcase classname="triangle.service.tests.SeparatorTest" name="createTriangleSuccessTest" time="1.161"/>
+  <testcase classname="triangle.service.tests.SeparatorTest" name="createTriangleSuccessTest" time="1.185"/>
+  <testcase classname="triangle.service.tests.SeparatorTest" name="createTriangleSuccessTest" time="1.841"/>
+  <testcase classname="triangle.service.tests.SeparatorTest" name="createTriangleSuccessTest" time="1.198"/>
+  <testcase classname="triangle.service.tests.SeparatorTest" name="createTriangleSuccessTest" time="1.282"/>
+  <testcase classname="triangle.service.tests.SeparatorTest" name="createTriangleSuccessTest" time="1.259"/>
+  <testcase classname="triangle.service.tests.SeparatorTest" name="createTriangleSuccessTest" time="1.526"/>
+  <testcase classname="triangle.service.tests.SeparatorTest" name="unprocessbleCreateTriangleRequestTest" time="1.952"/>
+  <testcase classname="triangle.service.tests.SeparatorTest" name="unprocessbleCreateTriangleRequestTest" time="1.339"/>
+  <testcase classname="triangle.service.tests.CreateTriangleTest" name="createTriangleSuccessTest" time="1.634"/>
+  <testcase classname="triangle.service.tests.CreateTriangleTest" name="createTriangleSuccessTest" time="1.458"/>
+  <testcase classname="triangle.service.tests.CreateTriangleTest" name="createTriangleSuccessTest" time="1.247"/>
+  <testcase classname="triangle.service.tests.CreateTriangleTest" name="createTriangleSuccessTest" time="2.05"/>
+  <testcase classname="triangle.service.tests.CreateTriangleTest" name="createTriangleSuccessTest" time="1.575"/>
+  <testcase classname="triangle.service.tests.CreateTriangleTest" name="createTriangleSuccessTest" time="1.313"/>
+  <testcase classname="triangle.service.tests.CreateTriangleTest" name="unprocessbleCreateTriangleRequestTest" time="1.56"/>
+  <testcase classname="triangle.service.tests.CreateTriangleTest" name="unprocessbleCreateTriangleRequestTest" time="1.723">
+    <failure message="1 expectation failed.
+Expected status code &lt;422&gt; but was &lt;200&gt;.
+" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;422&gt; but was &lt;200&gt;.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at triangle.service.tests.CreateTriangleTest.unprocessbleCreateTriangleRequestTest(CreateTriangleTest.java:78)
+</failure>
+    <system-out>Request method:	GET
+Request URI:	https://qa-quiz.natera.com/triangle/all
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		X-User=38e1e2f8-5428-4833-a38b-054fb6522a95
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+Request method:	POST
+Request URI:	https://qa-quiz.natera.com/triangle
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		X-User=38e1e2f8-5428-4833-a38b-054fb6522a95
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;input&quot;: &quot;3;4;-5&quot;
+}
+HTTP/1.1 200 
+Date: Sun, 09 Feb 2020 16:44:50 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{
+    &quot;id&quot;: &quot;43920dfa-64fa-4bd6-9d60-3ed7ffb1d761&quot;,
+    &quot;firstSide&quot;: 3.0,
+    &quot;secondSide&quot;: 4.0,
+    &quot;thirdSide&quot;: 5.0
+}
+</system-out>
+  </testcase>
+  <testcase classname="triangle.service.tests.CreateTriangleTest" name="unprocessbleCreateTriangleRequestTest" time="1.508">
+    <failure message="1 expectation failed.
+Expected status code &lt;422&gt; but was &lt;200&gt;.
+" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;422&gt; but was &lt;200&gt;.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at triangle.service.tests.CreateTriangleTest.unprocessbleCreateTriangleRequestTest(CreateTriangleTest.java:78)
+</failure>
+    <system-out>Request method:	GET
+Request URI:	https://qa-quiz.natera.com/triangle/all
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		X-User=38e1e2f8-5428-4833-a38b-054fb6522a95
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+Request method:	DELETE
+Request URI:	https://qa-quiz.natera.com/triangle/43920dfa-64fa-4bd6-9d60-3ed7ffb1d761
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	triangleId=43920dfa-64fa-4bd6-9d60-3ed7ffb1d761
+Headers:		X-User=38e1e2f8-5428-4833-a38b-054fb6522a95
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+Request method:	POST
+Request URI:	https://qa-quiz.natera.com/triangle
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		X-User=38e1e2f8-5428-4833-a38b-054fb6522a95
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;input&quot;: &quot;-3;4;5&quot;
+}
+HTTP/1.1 200 
+Date: Sun, 09 Feb 2020 16:44:54 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{
+    &quot;id&quot;: &quot;4018fe81-c1a6-43ff-9b38-d3e5d0333728&quot;,
+    &quot;firstSide&quot;: 3.0,
+    &quot;secondSide&quot;: 4.0,
+    &quot;thirdSide&quot;: 5.0
+}
+</system-out>
+  </testcase>
+  <testcase classname="triangle.service.tests.CreateTriangleTest" name="unprocessbleCreateTriangleRequestTest" time="2.448">
+    <failure message="1 expectation failed.
+Expected status code &lt;422&gt; but was &lt;200&gt;.
+" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;422&gt; but was &lt;200&gt;.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at triangle.service.tests.CreateTriangleTest.unprocessbleCreateTriangleRequestTest(CreateTriangleTest.java:78)
+</failure>
+    <system-out>Request method:	GET
+Request URI:	https://qa-quiz.natera.com/triangle/all
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		X-User=38e1e2f8-5428-4833-a38b-054fb6522a95
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+Request method:	DELETE
+Request URI:	https://qa-quiz.natera.com/triangle/4018fe81-c1a6-43ff-9b38-d3e5d0333728
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	triangleId=4018fe81-c1a6-43ff-9b38-d3e5d0333728
+Headers:		X-User=38e1e2f8-5428-4833-a38b-054fb6522a95
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+Request method:	POST
+Request URI:	https://qa-quiz.natera.com/triangle
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		X-User=38e1e2f8-5428-4833-a38b-054fb6522a95
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;input&quot;: &quot;3;-4;5&quot;
+}
+HTTP/1.1 200 
+Date: Sun, 09 Feb 2020 16:44:59 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{
+    &quot;id&quot;: &quot;8227ed84-d443-4251-9f9b-ab6579258c7d&quot;,
+    &quot;firstSide&quot;: 3.0,
+    &quot;secondSide&quot;: 4.0,
+    &quot;thirdSide&quot;: 5.0
+}
+</system-out>
+  </testcase>
+  <testcase classname="triangle.service.tests.CreateTriangleTest" name="unprocessbleCreateTriangleRequestTest" time="1.567"/>
+  <testcase classname="triangle.service.tests.CreateTriangleTest" name="unprocessbleCreateTriangleRequestTest" time="2.154">
+    <failure message="1 expectation failed.
+Expected status code &lt;422&gt; but was &lt;200&gt;.
+" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;422&gt; but was &lt;200&gt;.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at triangle.service.tests.CreateTriangleTest.unprocessbleCreateTriangleRequestTest(CreateTriangleTest.java:78)
+</failure>
+    <system-out>Request method:	GET
+Request URI:	https://qa-quiz.natera.com/triangle/all
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		X-User=38e1e2f8-5428-4833-a38b-054fb6522a95
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+Request method:	POST
+Request URI:	https://qa-quiz.natera.com/triangle
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		X-User=38e1e2f8-5428-4833-a38b-054fb6522a95
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;input&quot;: &quot;3;4;5;6&quot;
+}
+HTTP/1.1 200 
+Date: Sun, 09 Feb 2020 16:45:08 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{
+    &quot;id&quot;: &quot;ed1de955-9bee-4aed-a2a9-fcba23ad950b&quot;,
+    &quot;firstSide&quot;: 3.0,
+    &quot;secondSide&quot;: 4.0,
+    &quot;thirdSide&quot;: 5.0
+}
+</system-out>
+  </testcase>
+  <testcase classname="triangle.service.tests.CreateTriangleTest" name="unprocessbleCreateTriangleRequestTest" time="1.538"/>
+  <testcase classname="triangle.service.tests.CreateTriangleTest" name="unprocessbleCreateTriangleRequestTest" time="1.323"/>
+  <testcase classname="triangle.service.tests.CreateTriangleTest" name="unprocessbleCreateTriangleRequestTest" time="1.236"/>
+  <testcase classname="triangle.service.tests.TriangleAreaTest" name="getTriangleAreaTest" time="2.838"/>
+  <testcase classname="triangle.service.tests.TriangleAreaTest" name="getTriangleAreaTest" time="2.286"/>
+  <testcase classname="triangle.service.tests.TriangleAreaTest" name="getTriangleAreaTest" time="2.146"/>
+  <testcase classname="triangle.service.tests.TriangleAreaTest" name="getTriangleAreaTest" time="2.795"/>
+  <testcase classname="triangle.service.tests.TriangleAreaTest" name="getTriangleAreaTest" time="2.75"/>
+  <testcase classname="triangle.service.tests.TriangleAreaTest" name="getTriangleAreaTest" time="2.094"/>
+  <testcase classname="triangle.service.tests.TriangleAreaTest" name="notFoundTest" time="1.194"/>
+  <testcase classname="triangle.service.tests.TrianglePerimeterTest" name="getTrianglePerimeterTest" time="2.839"/>
+  <testcase classname="triangle.service.tests.TrianglePerimeterTest" name="getTrianglePerimeterTest" time="2.548"/>
+  <testcase classname="triangle.service.tests.TrianglePerimeterTest" name="getTrianglePerimeterTest" time="2.539"/>
+  <testcase classname="triangle.service.tests.TrianglePerimeterTest" name="getTrianglePerimeterTest" time="2.229"/>
+  <testcase classname="triangle.service.tests.TrianglePerimeterTest" name="getTrianglePerimeterTest" time="2.618"/>
+  <testcase classname="triangle.service.tests.TrianglePerimeterTest" name="getTrianglePerimeterTest" time="2.7"/>
+  <testcase classname="triangle.service.tests.TrianglePerimeterTest" name="notFoundTest" time="1.754"/>
+  <testcase classname="triangle.service.tests.AuthorizationTest" name="unauthorizedRequestDeleteTriangleTest" time="3.357"/>
+  <testcase classname="triangle.service.tests.AuthorizationTest" name="unauthorizedRequestGetTriangleAllTest" time="1.436"/>
+  <testcase classname="triangle.service.tests.AuthorizationTest" name="unauthorizedRequestPostTriangleTest" time="1.536"/>
+  <testcase classname="triangle.service.tests.AuthorizationTest" name="unauthorizedRequestTriangleAreaTest" time="2.962"/>
+  <testcase classname="triangle.service.tests.AuthorizationTest" name="unauthorizedRequestTrianglePerimeterTest" time="2.762"/>
+  <testcase classname="triangle.service.tests.DeleteTest" name="deleteTriangleTest" time="4.273"/>
+  <testcase classname="triangle.service.tests.DeleteTest" name="notFoundTest" time="1.193"/>
+</testsuite>

@@ -1,0 +1,11 @@
+triangle/service/tests/GetAllTriangleTest$1.class
+triangle/service/tests/SeparatorTest.class
+triangle/service/tests/GetAllTriangleTest.class
+triangle/service/tests/DeleteTest.class
+triangle/service/tests/CreateTriangleTest.class
+triangle/service/tests/TrianglePerimeterTest.class
+triangle/service/tests/TriangleService.class
+triangle/service/tests/TriangleAreaTest.class
+triangle/service/tests/CapacityTest.class
+triangle/service/tests/GetAllTriangleTest$2.class
+triangle/service/tests/AuthorizationTest.class

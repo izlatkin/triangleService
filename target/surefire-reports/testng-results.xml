@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="52" passed="47" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-09T16:42:03Z" name="Command line suite" finished-at="2020-02-09T16:46:55Z" duration-ms="291541">
+    <groups>
+    </groups>
+    <test started-at="2020-02-09T16:42:03Z" name="Command line test" finished-at="2020-02-09T16:46:55Z" duration-ms="291541">
+      <class name="triangle.service.tests.CreateTriangleTest">
+        <test-method signature="createTriangleSuccessTest(triangle.service.TriangleRequest, double, double, double)[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:44:16Z" name="createTriangleSuccessTest" data-provider="createTrianglesSuccessData" finished-at="2020-02-09T16:44:18Z" duration-ms="1640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='3;4;5', separator='null'}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTriangleSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:44:18Z" name="tearDown" finished-at="2020-02-09T16:44:21Z" duration-ms="3204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createTriangleSuccessTest(triangle.service.TriangleRequest, double, double, double)[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:44:21Z" name="createTriangleSuccessTest" data-provider="createTrianglesSuccessData" finished-at="2020-02-09T16:44:22Z" duration-ms="1458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='0.5;0.75;0.5', separator='null'}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.75]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTriangleSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:44:22Z" name="tearDown" finished-at="2020-02-09T16:44:25Z" duration-ms="2509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createTriangleSuccessTest(triangle.service.TriangleRequest, double, double, double)[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:44:25Z" name="createTriangleSuccessTest" data-provider="createTrianglesSuccessData" finished-at="2020-02-09T16:44:26Z" duration-ms="1248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='1;1;2', separator='null'}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTriangleSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:44:26Z" name="tearDown" finished-at="2020-02-09T16:44:30Z" duration-ms="4178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createTriangleSuccessTest(triangle.service.TriangleRequest, double, double, double)[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:44:30Z" name="createTriangleSuccessTest" data-provider="createTrianglesSuccessData" finished-at="2020-02-09T16:44:32Z" duration-ms="2049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='1;1;0', separator='null'}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTriangleSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:44:32Z" name="tearDown" finished-at="2020-02-09T16:44:35Z" duration-ms="2703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createTriangleSuccessTest(triangle.service.TriangleRequest, double, double, double)[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:44:35Z" name="createTriangleSuccessTest" data-provider="createTrianglesSuccessData" finished-at="2020-02-09T16:44:37Z" duration-ms="1573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='0;0;0', separator='null'}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTriangleSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:44:37Z" name="tearDown" finished-at="2020-02-09T16:44:41Z" duration-ms="3943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createTriangleSuccessTest(triangle.service.TriangleRequest, double, double, double)[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:44:41Z" name="createTriangleSuccessTest" data-provider="createTrianglesSuccessData" finished-at="2020-02-09T16:44:42Z" duration-ms="1313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='1000000000000000000;1000000000000000000;1000000000000000000', separator='null'}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0E18]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0E18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0E18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTriangleSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:44:42Z" name="tearDown" finished-at="2020-02-09T16:44:45Z" duration-ms="3371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unprocessbleCreateTriangleRequestTest(triangle.service.TriangleRequest)[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:44:45Z" name="unprocessbleCreateTriangleRequestTest" data-provider="createTrianglesUnprocessibleData" finished-at="2020-02-09T16:44:47Z" duration-ms="1549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='3;4;8', separator='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unprocessbleCreateTriangleRequestTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:44:47Z" name="tearDown" finished-at="2020-02-09T16:44:48Z" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unprocessbleCreateTriangleRequestTest(triangle.service.TriangleRequest)[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:44:48Z" name="unprocessbleCreateTriangleRequestTest" data-provider="createTrianglesUnprocessibleData" finished-at="2020-02-09T16:44:50Z" duration-ms="1725" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='3;4;-5', separator='null'}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <422> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <422> but was <200>.
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at triangle.service.tests.CreateTriangleTest.unprocessbleCreateTriangleRequestTest(CreateTriangleTest.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unprocessbleCreateTriangleRequestTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:44:50Z" name="tearDown" finished-at="2020-02-09T16:44:53Z" duration-ms="2893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unprocessbleCreateTriangleRequestTest(triangle.service.TriangleRequest)[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:44:53Z" name="unprocessbleCreateTriangleRequestTest" data-provider="createTrianglesUnprocessibleData" finished-at="2020-02-09T16:44:54Z" duration-ms="1507" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='-3;4;5', separator='null'}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <422> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <422> but was <200>.
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at triangle.service.tests.CreateTriangleTest.unprocessbleCreateTriangleRequestTest(CreateTriangleTest.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unprocessbleCreateTriangleRequestTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:44:54Z" name="tearDown" finished-at="2020-02-09T16:44:57Z" duration-ms="2774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unprocessbleCreateTriangleRequestTest(triangle.service.TriangleRequest)[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:44:57Z" name="unprocessbleCreateTriangleRequestTest" data-provider="createTrianglesUnprocessibleData" finished-at="2020-02-09T16:45:00Z" duration-ms="2448" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='3;-4;5', separator='null'}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <422> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <422> but was <200>.
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at triangle.service.tests.CreateTriangleTest.unprocessbleCreateTriangleRequestTest(CreateTriangleTest.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unprocessbleCreateTriangleRequestTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:45:00Z" name="tearDown" finished-at="2020-02-09T16:45:03Z" duration-ms="2822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unprocessbleCreateTriangleRequestTest(triangle.service.TriangleRequest)[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:45:03Z" name="unprocessbleCreateTriangleRequestTest" data-provider="createTrianglesUnprocessibleData" finished-at="2020-02-09T16:45:04Z" duration-ms="1566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='1;1;0,5', separator='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unprocessbleCreateTriangleRequestTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:45:04Z" name="tearDown" finished-at="2020-02-09T16:45:06Z" duration-ms="1865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unprocessbleCreateTriangleRequestTest(triangle.service.TriangleRequest)[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:45:06Z" name="unprocessbleCreateTriangleRequestTest" data-provider="createTrianglesUnprocessibleData" finished-at="2020-02-09T16:45:08Z" duration-ms="2154" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='3;4;5;6', separator='null'}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <422> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <422> but was <200>.
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at triangle.service.tests.CreateTriangleTest.unprocessbleCreateTriangleRequestTest(CreateTriangleTest.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unprocessbleCreateTriangleRequestTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:45:08Z" name="tearDown" finished-at="2020-02-09T16:45:12Z" duration-ms="3598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unprocessbleCreateTriangleRequestTest(triangle.service.TriangleRequest)[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:45:12Z" name="unprocessbleCreateTriangleRequestTest" data-provider="createTrianglesUnprocessibleData" finished-at="2020-02-09T16:45:13Z" duration-ms="1538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='3;4;', separator='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unprocessbleCreateTriangleRequestTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:45:13Z" name="tearDown" finished-at="2020-02-09T16:45:15Z" duration-ms="1318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unprocessbleCreateTriangleRequestTest(triangle.service.TriangleRequest)[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:45:15Z" name="unprocessbleCreateTriangleRequestTest" data-provider="createTrianglesUnprocessibleData" finished-at="2020-02-09T16:45:16Z" duration-ms="1323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='3;4;a', separator='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unprocessbleCreateTriangleRequestTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:45:16Z" name="tearDown" finished-at="2020-02-09T16:45:18Z" duration-ms="2459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unprocessbleCreateTriangleRequestTest(triangle.service.TriangleRequest)[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:45:18Z" name="unprocessbleCreateTriangleRequestTest" data-provider="createTrianglesUnprocessibleData" finished-at="2020-02-09T16:45:20Z" duration-ms="1236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='3;4;5', separator=':'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unprocessbleCreateTriangleRequestTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:45:20Z" name="tearDown" finished-at="2020-02-09T16:45:21Z" duration-ms="1107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- triangle.service.tests.CreateTriangleTest -->
+      <class name="triangle.service.tests.AuthorizationTest">
+        <test-method signature="unauthorizedRequestDeleteTriangleTest()[pri:0, instance:triangle.service.tests.AuthorizationTest@50a638b5]" started-at="2020-02-09T16:46:28Z" name="unauthorizedRequestDeleteTriangleTest" finished-at="2020-02-09T16:46:32Z" duration-ms="3359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unauthorizedRequestDeleteTriangleTest -->
+        <test-method signature="unauthorizedRequestGetTriangleAllTest()[pri:0, instance:triangle.service.tests.AuthorizationTest@50a638b5]" started-at="2020-02-09T16:46:32Z" name="unauthorizedRequestGetTriangleAllTest" finished-at="2020-02-09T16:46:33Z" duration-ms="1434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unauthorizedRequestGetTriangleAllTest -->
+        <test-method signature="unauthorizedRequestPostTriangleTest()[pri:0, instance:triangle.service.tests.AuthorizationTest@50a638b5]" started-at="2020-02-09T16:46:33Z" name="unauthorizedRequestPostTriangleTest" finished-at="2020-02-09T16:46:35Z" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unauthorizedRequestPostTriangleTest -->
+        <test-method signature="unauthorizedRequestTriangleAreaTest()[pri:0, instance:triangle.service.tests.AuthorizationTest@50a638b5]" started-at="2020-02-09T16:46:35Z" name="unauthorizedRequestTriangleAreaTest" finished-at="2020-02-09T16:46:38Z" duration-ms="2964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unauthorizedRequestTriangleAreaTest -->
+        <test-method signature="unauthorizedRequestTrianglePerimeterTest()[pri:0, instance:triangle.service.tests.AuthorizationTest@50a638b5]" started-at="2020-02-09T16:46:38Z" name="unauthorizedRequestTrianglePerimeterTest" finished-at="2020-02-09T16:46:40Z" duration-ms="2764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unauthorizedRequestTrianglePerimeterTest -->
+      </class> <!-- triangle.service.tests.AuthorizationTest -->
+      <class name="triangle.service.tests.GetAllTriangleTest">
+        <test-method signature="getAllTest()[pri:0, instance:triangle.service.tests.GetAllTriangleTest@5c30a9b0]" started-at="2020-02-09T16:42:16Z" name="getAllTest" finished-at="2020-02-09T16:42:22Z" duration-ms="5705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.GetAllTriangleTest@5c30a9b0]" started-at="2020-02-09T16:42:22Z" name="tearDown" finished-at="2020-02-09T16:42:25Z" duration-ms="2952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- triangle.service.tests.GetAllTriangleTest -->
+      <class name="triangle.service.tests.CapacityTest">
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:triangle.service.tests.CapacityTest@1ddf84b8]" started-at="2020-02-09T16:42:03Z" name="suiteSetUp" finished-at="2020-02-09T16:42:07Z" duration-ms="4053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:triangle.service.tests.CreateTriangleTest@7a69b07]" started-at="2020-02-09T16:42:07Z" name="suiteSetUp" finished-at="2020-02-09T16:42:08Z" duration-ms="1088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:triangle.service.tests.DeleteTest@636be97c]" started-at="2020-02-09T16:42:08Z" name="suiteSetUp" finished-at="2020-02-09T16:42:10Z" duration-ms="1450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:triangle.service.tests.GetAllTriangleTest@5c30a9b0]" started-at="2020-02-09T16:42:10Z" name="suiteSetUp" finished-at="2020-02-09T16:42:11Z" duration-ms="1544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:42:11Z" name="suiteSetUp" finished-at="2020-02-09T16:42:13Z" duration-ms="1526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:triangle.service.tests.TriangleAreaTest@5e82df6a]" started-at="2020-02-09T16:42:13Z" name="suiteSetUp" finished-at="2020-02-09T16:42:14Z" duration-ms="1436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:triangle.service.tests.TrianglePerimeterTest@3f197a46]" started-at="2020-02-09T16:42:14Z" name="suiteSetUp" finished-at="2020-02-09T16:42:16Z" duration-ms="1544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method signature="maxCapacityAndAbove()[pri:0, instance:triangle.service.tests.CapacityTest@1ddf84b8]" started-at="2020-02-09T16:42:25Z" name="maxCapacityAndAbove" finished-at="2020-02-09T16:42:54Z" duration-ms="29326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxCapacityAndAbove -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.CapacityTest@1ddf84b8]" started-at="2020-02-09T16:42:54Z" name="tearDown" finished-at="2020-02-09T16:43:12Z" duration-ms="17713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- triangle.service.tests.CapacityTest -->
+      <class name="triangle.service.tests.SeparatorTest">
+        <test-method signature="createTriangleSuccessTest(triangle.service.TriangleRequest, double, double, double)[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:43:12Z" name="createTriangleSuccessTest" data-provider="SeparatorData" finished-at="2020-02-09T16:43:13Z" duration-ms="1187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='3;4;5', separator=';'}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTriangleSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:43:13Z" name="tearDown" finished-at="2020-02-09T16:43:16Z" duration-ms="3075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createTriangleSuccessTest(triangle.service.TriangleRequest, double, double, double)[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:43:16Z" name="createTriangleSuccessTest" data-provider="SeparatorData" finished-at="2020-02-09T16:43:19Z" duration-ms="3084" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='3.4.5', separator='.'}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <422>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <422>.
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:238)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at triangle.service.tests.SeparatorTest.createTriangleSuccessTest(SeparatorTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTriangleSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:43:19Z" name="tearDown" finished-at="2020-02-09T16:43:21Z" duration-ms="2444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createTriangleSuccessTest(triangle.service.TriangleRequest, double, double, double)[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:43:21Z" name="createTriangleSuccessTest" data-provider="SeparatorData" finished-at="2020-02-09T16:43:23Z" duration-ms="1134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='3,4,5', separator=','}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTriangleSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:43:23Z" name="tearDown" finished-at="2020-02-09T16:43:26Z" duration-ms="2979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createTriangleSuccessTest(triangle.service.TriangleRequest, double, double, double)[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:43:26Z" name="createTriangleSuccessTest" data-provider="SeparatorData" finished-at="2020-02-09T16:43:27Z" duration-ms="1315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='3:4:5', separator=':'}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTriangleSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:43:27Z" name="tearDown" finished-at="2020-02-09T16:43:30Z" duration-ms="3591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createTriangleSuccessTest(triangle.service.TriangleRequest, double, double, double)[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:43:30Z" name="createTriangleSuccessTest" data-provider="SeparatorData" finished-at="2020-02-09T16:43:33Z" duration-ms="2080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='3 4 5', separator=' '}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTriangleSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:43:33Z" name="tearDown" finished-at="2020-02-09T16:43:35Z" duration-ms="2606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createTriangleSuccessTest(triangle.service.TriangleRequest, double, double, double)[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:43:35Z" name="createTriangleSuccessTest" data-provider="SeparatorData" finished-at="2020-02-09T16:43:36Z" duration-ms="1161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='3  4  5', separator='  '}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTriangleSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:43:36Z" name="tearDown" finished-at="2020-02-09T16:43:39Z" duration-ms="2486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createTriangleSuccessTest(triangle.service.TriangleRequest, double, double, double)[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:43:39Z" name="createTriangleSuccessTest" data-provider="SeparatorData" finished-at="2020-02-09T16:43:40Z" duration-ms="1184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='345', separator=''}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTriangleSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:43:40Z" name="tearDown" finished-at="2020-02-09T16:43:48Z" duration-ms="8088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createTriangleSuccessTest(triangle.service.TriangleRequest, double, double, double)[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:43:48Z" name="createTriangleSuccessTest" data-provider="SeparatorData" finished-at="2020-02-09T16:43:50Z" duration-ms="1841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='3
+4
+5', separator='
+'}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTriangleSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:43:50Z" name="tearDown" finished-at="2020-02-09T16:43:53Z" duration-ms="2875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createTriangleSuccessTest(triangle.service.TriangleRequest, double, double, double)[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:43:53Z" name="createTriangleSuccessTest" data-provider="SeparatorData" finished-at="2020-02-09T16:43:54Z" duration-ms="1198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='3a4a5', separator='a'}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTriangleSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:43:54Z" name="tearDown" finished-at="2020-02-09T16:43:56Z" duration-ms="2378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createTriangleSuccessTest(triangle.service.TriangleRequest, double, double, double)[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:43:56Z" name="createTriangleSuccessTest" data-provider="SeparatorData" finished-at="2020-02-09T16:43:58Z" duration-ms="1281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='3ж4ж5', separator='ж'}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTriangleSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:43:58Z" name="tearDown" finished-at="2020-02-09T16:44:01Z" duration-ms="3016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createTriangleSuccessTest(triangle.service.TriangleRequest, double, double, double)[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:44:01Z" name="createTriangleSuccessTest" data-provider="SeparatorData" finished-at="2020-02-09T16:44:02Z" duration-ms="1260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='3long_separator4long_separator5', separator='long_separator'}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTriangleSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:44:02Z" name="tearDown" finished-at="2020-02-09T16:44:05Z" duration-ms="3257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="createTriangleSuccessTest(triangle.service.TriangleRequest, double, double, double)[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:44:05Z" name="createTriangleSuccessTest" data-provider="SeparatorData" finished-at="2020-02-09T16:44:07Z" duration-ms="1526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='1000000000000000000:1000000000000000000:1000000000000000000', separator=':'}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0E18]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0E18]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0E18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTriangleSuccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:44:07Z" name="tearDown" finished-at="2020-02-09T16:44:10Z" duration-ms="3384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unprocessbleCreateTriangleRequestTest(triangle.service.TriangleRequest)[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:44:10Z" name="unprocessbleCreateTriangleRequestTest" data-provider="separatorUnprocessibleData" finished-at="2020-02-09T16:44:12Z" duration-ms="1952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='3:4:8', separator=';'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unprocessbleCreateTriangleRequestTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:44:12Z" name="tearDown" finished-at="2020-02-09T16:44:13Z" duration-ms="1318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="unprocessbleCreateTriangleRequestTest(triangle.service.TriangleRequest)[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:44:13Z" name="unprocessbleCreateTriangleRequestTest" data-provider="separatorUnprocessibleData" finished-at="2020-02-09T16:44:15Z" duration-ms="1339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{input='3;4;5', separator=':'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unprocessbleCreateTriangleRequestTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.SeparatorTest@1139b2f3]" started-at="2020-02-09T16:44:15Z" name="tearDown" finished-at="2020-02-09T16:44:16Z" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- triangle.service.tests.SeparatorTest -->
+      <class name="triangle.service.tests.DeleteTest">
+        <test-method signature="deleteTriangleTest()[pri:0, instance:triangle.service.tests.DeleteTest@636be97c]" started-at="2020-02-09T16:46:40Z" name="deleteTriangleTest" finished-at="2020-02-09T16:46:45Z" duration-ms="4273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTriangleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.DeleteTest@636be97c]" started-at="2020-02-09T16:46:45Z" name="tearDown" finished-at="2020-02-09T16:46:52Z" duration-ms="7436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="notFoundTest()[pri:0, instance:triangle.service.tests.DeleteTest@636be97c]" started-at="2020-02-09T16:46:52Z" name="notFoundTest" finished-at="2020-02-09T16:46:53Z" duration-ms="1194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notFoundTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.DeleteTest@636be97c]" started-at="2020-02-09T16:46:53Z" name="tearDown" finished-at="2020-02-09T16:46:55Z" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- triangle.service.tests.DeleteTest -->
+      <class name="triangle.service.tests.TriangleAreaTest">
+        <test-method signature="getTriangleAreaTest(java.lang.String, double)[pri:0, instance:triangle.service.tests.TriangleAreaTest@5e82df6a]" started-at="2020-02-09T16:45:21Z" name="getTriangleAreaTest" data-provider="areas" finished-at="2020-02-09T16:45:24Z" duration-ms="2831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3;4;5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTriangleAreaTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.TriangleAreaTest@5e82df6a]" started-at="2020-02-09T16:45:24Z" name="tearDown" finished-at="2020-02-09T16:45:26Z" duration-ms="2244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getTriangleAreaTest(java.lang.String, double)[pri:0, instance:triangle.service.tests.TriangleAreaTest@5e82df6a]" started-at="2020-02-09T16:45:26Z" name="getTriangleAreaTest" data-provider="areas" finished-at="2020-02-09T16:45:28Z" duration-ms="2286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.5;0.75;1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.18154609435347266]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTriangleAreaTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.TriangleAreaTest@5e82df6a]" started-at="2020-02-09T16:45:28Z" name="tearDown" finished-at="2020-02-09T16:45:30Z" duration-ms="2268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getTriangleAreaTest(java.lang.String, double)[pri:0, instance:triangle.service.tests.TriangleAreaTest@5e82df6a]" started-at="2020-02-09T16:45:30Z" name="getTriangleAreaTest" data-provider="areas" finished-at="2020-02-09T16:45:32Z" duration-ms="2144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000000.001;1000000;1000000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.330127021808946E11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTriangleAreaTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.TriangleAreaTest@5e82df6a]" started-at="2020-02-09T16:45:32Z" name="tearDown" finished-at="2020-02-09T16:45:35Z" duration-ms="2665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getTriangleAreaTest(java.lang.String, double)[pri:0, instance:triangle.service.tests.TriangleAreaTest@5e82df6a]" started-at="2020-02-09T16:45:35Z" name="getTriangleAreaTest" data-provider="areas" finished-at="2020-02-09T16:45:38Z" duration-ms="2794" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1;1;0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTriangleAreaTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.TriangleAreaTest@5e82df6a]" started-at="2020-02-09T16:45:38Z" name="tearDown" finished-at="2020-02-09T16:45:41Z" duration-ms="2843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getTriangleAreaTest(java.lang.String, double)[pri:0, instance:triangle.service.tests.TriangleAreaTest@5e82df6a]" started-at="2020-02-09T16:45:41Z" name="getTriangleAreaTest" data-provider="areas" finished-at="2020-02-09T16:45:44Z" duration-ms="2749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1;1;2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTriangleAreaTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.TriangleAreaTest@5e82df6a]" started-at="2020-02-09T16:45:44Z" name="tearDown" finished-at="2020-02-09T16:45:47Z" duration-ms="3397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getTriangleAreaTest(java.lang.String, double)[pri:0, instance:triangle.service.tests.TriangleAreaTest@5e82df6a]" started-at="2020-02-09T16:45:47Z" name="getTriangleAreaTest" data-provider="areas" finished-at="2020-02-09T16:45:49Z" duration-ms="2095" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0;0;0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTriangleAreaTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.TriangleAreaTest@5e82df6a]" started-at="2020-02-09T16:45:49Z" name="tearDown" finished-at="2020-02-09T16:45:51Z" duration-ms="2299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="notFoundTest()[pri:0, instance:triangle.service.tests.TriangleAreaTest@5e82df6a]" started-at="2020-02-09T16:45:51Z" name="notFoundTest" finished-at="2020-02-09T16:45:53Z" duration-ms="1193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notFoundTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.TriangleAreaTest@5e82df6a]" started-at="2020-02-09T16:45:53Z" name="tearDown" finished-at="2020-02-09T16:45:54Z" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- triangle.service.tests.TriangleAreaTest -->
+      <class name="triangle.service.tests.TrianglePerimeterTest">
+        <test-method signature="getTrianglePerimeterTest(java.lang.String, double)[pri:0, instance:triangle.service.tests.TrianglePerimeterTest@3f197a46]" started-at="2020-02-09T16:45:54Z" name="getTrianglePerimeterTest" data-provider="perimeters" finished-at="2020-02-09T16:45:57Z" duration-ms="2841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3;4;5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTrianglePerimeterTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.TrianglePerimeterTest@3f197a46]" started-at="2020-02-09T16:45:57Z" name="tearDown" finished-at="2020-02-09T16:45:59Z" duration-ms="2857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getTrianglePerimeterTest(java.lang.String, double)[pri:0, instance:triangle.service.tests.TrianglePerimeterTest@3f197a46]" started-at="2020-02-09T16:45:59Z" name="getTrianglePerimeterTest" data-provider="perimeters" finished-at="2020-02-09T16:46:02Z" duration-ms="2553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.5;0.75;0.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.75]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTrianglePerimeterTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.TrianglePerimeterTest@3f197a46]" started-at="2020-02-09T16:46:02Z" name="tearDown" finished-at="2020-02-09T16:46:05Z" duration-ms="3183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getTrianglePerimeterTest(java.lang.String, double)[pri:0, instance:triangle.service.tests.TrianglePerimeterTest@3f197a46]" started-at="2020-02-09T16:46:05Z" name="getTrianglePerimeterTest" data-provider="perimeters" finished-at="2020-02-09T16:46:08Z" duration-ms="2539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000000.001;1000000.002;1000000.003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3000000.006]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTrianglePerimeterTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.TrianglePerimeterTest@3f197a46]" started-at="2020-02-09T16:46:08Z" name="tearDown" finished-at="2020-02-09T16:46:10Z" duration-ms="2102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getTrianglePerimeterTest(java.lang.String, double)[pri:0, instance:triangle.service.tests.TrianglePerimeterTest@3f197a46]" started-at="2020-02-09T16:46:10Z" name="getTrianglePerimeterTest" data-provider="perimeters" finished-at="2020-02-09T16:46:12Z" duration-ms="2231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1;1;0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTrianglePerimeterTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.TrianglePerimeterTest@3f197a46]" started-at="2020-02-09T16:46:12Z" name="tearDown" finished-at="2020-02-09T16:46:15Z" duration-ms="2646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getTrianglePerimeterTest(java.lang.String, double)[pri:0, instance:triangle.service.tests.TrianglePerimeterTest@3f197a46]" started-at="2020-02-09T16:46:15Z" name="getTrianglePerimeterTest" data-provider="perimeters" finished-at="2020-02-09T16:46:17Z" duration-ms="2618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1;1;2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTrianglePerimeterTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.TrianglePerimeterTest@3f197a46]" started-at="2020-02-09T16:46:17Z" name="tearDown" finished-at="2020-02-09T16:46:20Z" duration-ms="2705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="getTrianglePerimeterTest(java.lang.String, double)[pri:0, instance:triangle.service.tests.TrianglePerimeterTest@3f197a46]" started-at="2020-02-09T16:46:20Z" name="getTrianglePerimeterTest" data-provider="perimeters" finished-at="2020-02-09T16:46:23Z" duration-ms="2700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0;0;0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTrianglePerimeterTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.TrianglePerimeterTest@3f197a46]" started-at="2020-02-09T16:46:23Z" name="tearDown" finished-at="2020-02-09T16:46:25Z" duration-ms="2406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="notFoundTest()[pri:0, instance:triangle.service.tests.TrianglePerimeterTest@3f197a46]" started-at="2020-02-09T16:46:25Z" name="notFoundTest" finished-at="2020-02-09T16:46:27Z" duration-ms="1755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notFoundTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:triangle.service.tests.TrianglePerimeterTest@3f197a46]" started-at="2020-02-09T16:46:27Z" name="tearDown" finished-at="2020-02-09T16:46:28Z" duration-ms="1447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- triangle.service.tests.TrianglePerimeterTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

@@ -1,6 +1,7 @@
 package triangle.service.tests;
 
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import triangle.service.Triangle;
@@ -8,6 +9,7 @@ import triangle.service.TriangleRequest;
 import io.restassured.mapper.TypeRef;
 
 import java.util.List;
+import java.util.Random;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -18,41 +20,21 @@ public class GetAllTriangleTest extends TriangleService{
 
     @BeforeTest
     public void suiteSetUp() {
-        TriangleService tc = new TriangleService();
-        tc.deleteAllTriangles();
+        deleteAllTriangles();
     }
 
     @Test
     public void getAllTest() {
-        List<Triangle> triangles = given().
-                spec(createDefaultRequestSpec()).
-                when().
-                get("/triangle/all").
-                then().
-                log().all().
-                statusCode(200).
-                extract().as(new TypeRef<List<Triangle>>() {});
-
+        addTriangles(new Random().nextInt(9));
+        List<Triangle> triangles = getAllTriangles();
         triangle = createTriangle(new TriangleRequest("3;4;5"));
-
-        List<Triangle> trianglesAfterAddition = given().
-                spec(createDefaultRequestSpec()).
-                when().
-                get("/triangle/all").
-                then().
-                log().all().
-                statusCode(200).
-                extract().as(new TypeRef<List<Triangle>>() {});
-
+        List<Triangle> trianglesAfterAddition = getAllTriangles();
         assertThat(triangles, not(hasItem(hasProperty("id", equalTo(triangle.getId())))));
         assertThat(trianglesAfterAddition, hasItem(hasProperty("id", equalTo(triangle.getId()))));
     }
 
     @AfterMethod
     public void tearDown() {
-        if (triangle != null) {
-            TriangleService tc = new TriangleService();
-            tc.deleteAllTriangles();
-        }
+        deleteAllTriangles();
     }
 }

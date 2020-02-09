@@ -10,13 +10,12 @@ import static org.hamcrest.Matchers.*;
 import static org.hamcrest.Matchers.nullValue;
 import static triangle.service.tests.TriangleService.createDefaultRequestSpec;
 
-public class SeparatorTest {
+public class SeparatorTest extends TriangleService{
     private Triangle triangle;
 
     @BeforeTest
     public void suiteSetUp() {
-        TriangleService tc = new TriangleService();
-        tc.deleteAllTriangles();
+        deleteAllTriangles();
     }
 
     @DataProvider(name = "SeparatorData")
@@ -59,22 +58,17 @@ public class SeparatorTest {
 
     }
 
-    @DataProvider(name = "separatorUnprocessibleData")
+    @DataProvider(name = "separatorUnprocessableData")
     public Object[][] createTrianglesUnprocessibleData() {
         return new Object[][] {
                 { new TriangleRequest("3:4:8",";")},
-//                { new TriangleRequest("3;4;-5")},
-//                { new TriangleRequest("-3;4;5")},
-//                { new TriangleRequest("3;-4;5")},
-//                { new TriangleRequest("1;1;0,5")},
-//                { new TriangleRequest("3;4;5;6")},
-//                { new TriangleRequest("3;4;")},
-//                { new TriangleRequest("3;4;a")},
-                { new TriangleRequest("3;4;5", ":")}
+                { new TriangleRequest("3:4;8",";:")},
+                { new TriangleRequest("3:4:5", "::")},
+                { new TriangleRequest("3 4 5", "  ")}
         };
     }
 
-    @Test(dataProvider = "separatorUnprocessibleData")
+    @Test(dataProvider = "separatorUnprocessableData")
     public void unprocessbleCreateTriangleRequestTest(TriangleRequest requestPayload) {
         given(createDefaultRequestSpec()).
                 body(requestPayload).
@@ -88,9 +82,6 @@ public class SeparatorTest {
 
     @AfterMethod
     public void tearDown() {
-        if (triangle != null) {
-            TriangleService tc = new TriangleService();
-            tc.deleteAllTriangles();
-        }
+        deleteAllTriangles();
     }
 }

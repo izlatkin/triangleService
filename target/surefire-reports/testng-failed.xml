@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="triangle.service.tests.SeparatorTest">
+        <methods>
+          <include name="createTriangleSuccessTest" invocation-numbers="1"/>
+          <include name="tearDown"/>
+          <include name="suiteSetUp"/>
+        </methods>
+      </class> <!-- triangle.service.tests.SeparatorTest -->
+      <class name="triangle.service.tests.CreateTriangleTest">
+        <methods>
+          <include name="unprocessbleCreateTriangleRequestTest" invocation-numbers="1 2 3 5"/>
+          <include name="suiteSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- triangle.service.tests.CreateTriangleTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

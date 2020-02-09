@@ -1,9 +1,6 @@
 package triangle.service.tests;
 
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import triangle.service.Result;
 import triangle.service.Triangle;
 import triangle.service.TriangleRequest;
@@ -20,19 +17,21 @@ public class TrianglePerimeterTest extends TriangleService {
 
     @BeforeTest
     public void suiteSetUp() {
-        TriangleService tc = new TriangleService();
-        tc.deleteAllTriangles();
+        deleteAllTriangles();
     }
 
     @DataProvider(name = "perimeters")
     public Object[][] createTrianglePerimetersData() {
         return new Object[][] {
                 { "3;4;5", 12.0 },
+                { "1e-5;2e-5;1.5e-5", 4.5e-5 },
+                { "1e10;1e10;1.5e-10", 2e10 },
+                { "1e256;1e256;1e256", 3e256 },
                 { "0.5;0.75;0.5", 1.75},
                 { "1000000.001;1000000.002;1000000.003", 3_000_000.006},
                 { "1;1;0", 2},
                 { "1;1;2", 4},
-                { "0;0;0", 0}
+                { "0;0;0", 0},
         };
     }
 
@@ -68,10 +67,7 @@ public class TrianglePerimeterTest extends TriangleService {
 
     @AfterMethod
     public void tearDown() {
-        if (triangle != null) {
-            TriangleService tc = new TriangleService();
-            tc.deleteAllTriangles();
-        }
+        deleteAllTriangles();
     }
 
 }

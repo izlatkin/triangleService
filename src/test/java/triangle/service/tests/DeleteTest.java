@@ -1,9 +1,6 @@
 package triangle.service.tests;
 
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import triangle.service.Triangle;
 import triangle.service.TriangleRequest;
 
@@ -17,8 +14,7 @@ public class DeleteTest  extends TriangleService{
 
     @BeforeTest
     public void suiteSetUp() {
-        TriangleService tc = new TriangleService();
-        tc.deleteAllTriangles();
+        deleteAllTriangles();
     }
 
     @Test
@@ -61,9 +57,6 @@ public class DeleteTest  extends TriangleService{
 
     @AfterMethod
     public void tearDown() {
-        if (triangle != null) {
-            TriangleService tc = new TriangleService();
-            tc.deleteAllTriangles();
-        }
+        deleteAllTriangles();
     }
 }

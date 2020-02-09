@@ -1,9 +1,6 @@
 package triangle.service.tests;
 
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import triangle.service.Result;
 import triangle.service.Triangle;
 import triangle.service.TriangleRequest;
@@ -21,12 +18,12 @@ public class TriangleAreaTest extends TriangleService{
     public Object[][] createTriangleAreasData() {
         return new Object[][] {
                 // Expected area is calculated according to Heron's formula
-                { "3;4;5", 6.0 },
-                { "0.5;0.75;1.0", 0.18154609435347266},
-                { "1000000.001;1000000;1000000", 433012702180.8946},
-                { "1;1;0", 0},
-                { "1;1;2", 0},
-                { "0;0;0", 0}
+                { "3;4;5", triangleAre(3,4,5) },
+                { "0.5;0.75;1.0", triangleAre(0.5,0.75,1.0)},
+                { "1000000.001;1000000;1000000", triangleAre(1000000.001,1000000,1000000)},
+                { "1;1;0", triangleAre(1,1,0)},
+                { "1;1;2", triangleAre(1,1,2)},
+                { "0;0;0", triangleAre(0,0,0)}
         };
     }
 
